@@ -1,0 +1,135 @@
+Question 1 No. 1,2,4,5
+
+Question 2
+puts "Dive into code"
+
+puts "I am a student"
+
+puts "I am 30 years old"
+
+
+Question 3  symbols(+,-,*,/,%)
+
+Question 4 operators(<,>,==,>,<)
+Question 5 (false,true,true,true,true,false,true,false,incomparable,false)
+Question 6
+name = "Yamada Taro"
+age = 18
+puts name
+puts age 
+
+Question 7
+name = "Yamada Taro"
+age = 18
+
+puts "I am #{name}. I am #{age} years old."
+
+Question 8
+season= ["spring","summer", "autumn"]
+season << "Winter"
+p season[2]
+
+Question 9
+house ={price:"20 million",location:"Tokyo",size:"330m2"}
+p house[:location]
+
+Question 10
+p house[1][:location]
+ p house[0][:size]
+ p house[2][:price],house[2][:size]
+ 
+ Question 11
+ if num > 50
+     puts "greater than 50"
+elsif num==30
+     puts "Just 30"
+ else
+     puts "less than 50"
+ end
+ 
+ 
+ Question 12
+ num = 59
+ if num%2==0
+     puts "num is odd"
+    else
+     puts "num is even"
+  end
+  
+  Question 13
+   num = 0
+  
+  while num < 10
+  puts "good morning"
+  num=num+1
+  end
+  
+  Question 14
+  for num in 1..10
+  puts "Hello"
+  end
+  
+  
+  Question 15
+   10.times do
+      puts "Good evening"
+  end
+  
+  Question 16 
+  num = [1,2,3,4,5,6,7,8,9,10]
+  num.each do |n|
+      puts n
+ end
+ 
+ Question 17
+ def addition
+end
+
+Question 17-2
+def addition
+end
+
+addition
+
+Question 17-3
+def addition(x,y,z)
+end
+
+addition(2,3,7)
+
+Question 17-4
+def addition(x,y,z)
+  x + y
+end
+
+addition(2,3,7)
+
+Question 17-5
+def addition(x,y,z)
+  puts (x+y+z)/ 3
+end
+
+addition(2,3,7)
+
+Question 18
+def division(x,y)
+  puts x / y
+end
+
+division(10,5)
+
+Question 19
+Error
+
+Question 20
+def doing(date,place,food)
+  puts  "#{date} I eat #{food} at #{place}"
+  puts  "I will eat #{food} at #{place} #{date}"
+ end
+ 
+ 
+ puts doing("today","Shibuya","curry")
+ puts doing("tomorrow", "Ikebukuro", "omelet rice")
+
+
+
